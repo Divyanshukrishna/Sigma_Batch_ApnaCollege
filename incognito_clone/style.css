@@ -1,0 +1,17 @@
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 169px 234px 108px auto;
+}
+.lastbox{
+    border: solid 2px red;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    /* display: flex; */
+    text-align: center;
+    box-sizing: border-box;
+    padding: 16px 20px;
+    width: 300px;
+    
+}
