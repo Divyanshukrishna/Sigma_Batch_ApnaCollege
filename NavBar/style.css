@@ -21,9 +21,70 @@ ul{
     padding: 30px;
     background-color: black;
     color: white;
+    
 }
 
 li:hover{
     color: blue;
     cursor: pointer;
 }
+
+img{
+    height: 50px;
+} 
+
+
+
+
+
+ /* 2 Method  */
+
+  
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex; /* Use flexbox for even spacing */
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center; /* Align items vertically */
+  padding: 30px;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  flex: 0 0 auto; /* Prevent image from shrinking in flexbox */
+  margin-right: 20px; /* Add spacing after logo */
+}
+
+.logo img {
+  height: 50px;
+}
+
+a {
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none; /* Remove default link underline */
+}
+
+li {
+  padding: 20px 25px; /* Consistent padding for all list items */
+}
+
+li:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+
+
