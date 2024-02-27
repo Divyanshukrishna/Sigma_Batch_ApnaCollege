@@ -6,7 +6,7 @@
 
   
 nav{
-    height: 90px;
+    height: 100px;
     background-color: darkblue;
     position: fixed;
     top: 0;
@@ -29,26 +29,25 @@ main{
 .one {
     border-left: 6px solid green;
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 276px;
-  
-    bottom: 100px; /* Added */
+    bottom: 100px; 
 }
 
 .second {
     border-left: 6px solid green;
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 266px;
-    bottom: 100px; /* Added */
+    bottom: 100px; 
 }
   
 footer {
-    background-color: purple;
+    background-color: green;
     text-align: center;
-    padding: 100px;
-    position: fixed; /* Added */
-    bottom: 0; /* Adjusted */
+    padding: 50px;
+    position: fixed; 
+    bottom: 0; 
     left: 0;
     right: 0;
     color: white;
