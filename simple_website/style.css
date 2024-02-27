@@ -22,12 +22,12 @@ main{
     width: auto;
     text-align: center;
     justify-content: center;
-    padding: 14px 300px 600px 301px;
+    padding: 14px 300px 200px 301px;
     margin: 0;
 }
 
 .one {
-    border-left: 6px solid green;
+    border-left: 4px solid black;
     position: absolute;
     top: 5px;
     left: 276px;
@@ -35,7 +35,7 @@ main{
 }
 
 .second {
-    border-left: 6px solid green;
+    border-left: 4px solid black;
     position: absolute;
     top: 5px;
     right: 266px;
