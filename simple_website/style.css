@@ -18,7 +18,7 @@ main{
     position: relative;
     top: 91px;
     padding-top: 100px;
-    height: 535px;
+    height: auto;
     width: auto;
     text-align: center;
     justify-content: center;
@@ -26,29 +26,32 @@ main{
     margin: 0;
 }
 
-.one{
+.one {
     border-left: 6px solid green;
     position: absolute;
-    height: 1055px;
-    top: 0px;
+    top: 0;
     left: 276px;
+  
+    bottom: 100px; /* Added */
 }
-.second{
+
+.second {
     border-left: 6px solid green;
     position: absolute;
-    height: 1055px;
-    top: 0px;
-    right: 276px;
-} 
+    top: 0;
+    right: 266px;
+    bottom: 100px; /* Added */
+}
   
-  
-footer{
+footer {
     background-color: purple;
     text-align: center;
     padding: 100px;
-    bottom: 0px;
-    margin-bottom: 0px;
+    position: fixed; /* Added */
+    bottom: 0; /* Adjusted */
+    left: 0;
+    right: 0;
     color: white;
-    position: relative;
 }
+
   
