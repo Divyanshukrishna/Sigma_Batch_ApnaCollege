@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+  
+nav{
+    border: 2px solid red;
+    height: 90px;
+    background-color: darkblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+  
+main{
+    border: 2px solid red;
+    position: relative;
+    top: 0;
+    padding-top: 100px;
+    height: 700px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 200px 600px 200px;
+}
+  
+.contact {
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 200px; 
+}
+  
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 0;
+    color: white;
+}
+  
