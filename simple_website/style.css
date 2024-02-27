@@ -6,7 +6,6 @@
 
   
 nav{
-    /* border: 2px solid red; */
     height: 90px;
     background-color: darkblue;
     position: fixed;
@@ -16,7 +15,6 @@ nav{
 }
   
 main{
-    /* border: 2px solid red; */
     position: relative;
     top: 91px;
     padding-top: 100px;
@@ -27,19 +25,30 @@ main{
     padding: 14px 300px 600px 301px;
     margin: 0;
 }
+
+.one{
+    border-left: 6px solid green;
+    position: absolute;
+    height: 1055px;
+    top: 0px;
+    left: 276px;
+}
+.second{
+    border-left: 6px solid green;
+    position: absolute;
+    height: 1055px;
+    top: 0px;
+    right: 276px;
+} 
   
-/* .contact {
-    position: sticky;
-    background-color: #f0f0f0;
-    padding: 20px;
-    width: 200px; 
-} */
   
 footer{
-    background-color: black;
+    background-color: purple;
     text-align: center;
     padding: 100px;
+    bottom: 0px;
     margin-bottom: 0px;
     color: white;
+    position: relative;
 }
   
