@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Kode Mono", monospace;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vw;
+    background:linear-gradient(to top left,blue,orange) ;
+}
+
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.signup-header p{
+    font-size: bold;
+    color: blue;
+    
+}
+
+.signup-body{
+    
+}
+
