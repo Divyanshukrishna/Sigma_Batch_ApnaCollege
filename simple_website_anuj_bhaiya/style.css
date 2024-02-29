@@ -1,5 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .container{
     width: 400px;
-    height: auto;
+    height: 400px;
+    overflow: auto;
     border: 2px solid rebeccapurple;
+
+}
+.img1{
+    height: 200px;
+    float: left;
 }
