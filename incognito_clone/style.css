@@ -76,7 +76,6 @@ body{
 }
 
 .second-box li{
-    /* float: left; */
     position: relative;
     left: 0px;
 }
