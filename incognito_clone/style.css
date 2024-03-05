@@ -98,7 +98,6 @@ body{
 }
 
 .last-box .em-box{
-    /* border: 2px solid red; */
     display: block;
     float: left;
     margin: 0 343px;
