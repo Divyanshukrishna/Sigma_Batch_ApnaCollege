@@ -14,7 +14,7 @@
         
         .container{
             position: relative;
-            margin: 222px 579px auto 450px;
+            margin: 222px 500px auto 410px;
             padding: 113px;
             text-align: center;
             justify-content: center;
@@ -23,10 +23,13 @@
         body{
             background-image: url("Dr._A.P.J._Abdul_Kalam_Technical_University_logo.png");
             background-repeat: no-repeat;
+            /* position: relative; */
+            /* top: 20px; */
             background-position: top;
             overflow: auto;
             padding: 10px;
         }
+
         table caption.heading {
         border: 2px solid red !important;
         font-size: 20px;
@@ -34,6 +37,7 @@
         padding: 0 50px !important;
         white-space: nowrap !important;
         }
+
         .button_color{
         background-color: red;
         border-radius: 50%;
@@ -50,6 +54,7 @@
         z-index: 2;
         cursor: pointer;
         }
+
     </style>
 </head>
 <body>
@@ -83,9 +88,26 @@
     </tr>
 </table>
     </div>
-    <span class="button_color">
-        <!-- Color Change  -->
-    </span>
+    <span class="button_color" onclick="toggleBackgroundColor()">
+     </span>
+ 
+    <script>
+
+    let isBlue = false;
+ 
+    function toggleBackgroundColor() 
+    {
+        const body = document.body;
+ 
+        if (isBlue) {
+            body.style.backgroundColor = 'white'; // Change back to original color
+        } else {
+            body.style.backgroundColor = 'rgb(140, 140, 140)'; // Change to blue color
+        }
+ 
+        isBlue = !isBlue; // Toggle the state
+    }
+    </script>
 
 </body>
 </html>
