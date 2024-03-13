@@ -64,11 +64,32 @@
         </aside>
     </div>
 
-    <div class="contact">
+    <div class="contact" onclick="toggleBackgroundColor()" >
 
     </div>
+    <footer>
+        
+    </footer>
 
-    <footer> </footer>
+
+    <script>
+        
+        let isBlue = false;
+        
+        function toggleBackgroundColor() {
+           const body = document.body;
+        
+           if (isBlue) {
+               body.style.backgroundColor = '#b9c4bc'; // Change back to original color
+               document.querySelector('.contact').style.backgroundColor = '#00c2c4'; // Change button color back
+           } else {
+               body.style.backgroundColor = '#00c2c4'; // Change to blue color
+               document.querySelector('.contact').style.backgroundColor = '#b9c4bc'; // Change button color to blue
+           }
+        
+           isBlue = !isBlue; // Toggle the state
+        }
+    </script>
 
 
 </body>

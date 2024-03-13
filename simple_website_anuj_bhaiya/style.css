@@ -50,7 +50,7 @@ aside{
     right: 40px;
     bottom: 40px;
     border-radius: 40px;
-    background-color: red;
+    /* background-color: red; */
     z-index: 1;
 }
 
