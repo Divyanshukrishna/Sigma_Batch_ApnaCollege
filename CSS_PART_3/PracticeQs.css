@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    line-height: 2px;
+
+}
+
+/* .outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black !important;
+    margin: 20px;
+    margin-left: 700px;
+
+} */
+
+/* .inner-1{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius:40px;
+    background-color: red;
+}
+
+.inner-2{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius:40px;
+    background-color: yellow;
+
+}
+
+
+.inner-3{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius:40px;
+    background-color: green;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BY ME  */
+
+
+
+.outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    margin: 20px;
+    margin-left: 700px;
+}
+
+.inner-1{
+    border-radius: 20px;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.inner-2{
+    border-radius: 20px;
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.inner-3{
+    border-radius: 20px;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
