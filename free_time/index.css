@@ -7,7 +7,7 @@
 
 .inner{
     background-color: black;
-    
+    /* background-image: url("pexels-james-wheeler-414612.jpg"); */
     width: 200px;
     color: white;
     border: 2px solid red;
@@ -19,6 +19,7 @@
 /* 
     transform: scale(1); */
 }
+
 
 .inner img{
     width: 100%;
