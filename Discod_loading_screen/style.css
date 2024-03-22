@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: rgba(128, 128, 128, 0.851); */
+}
+
+.container{
+    /* display: inline-block; */
+    /* padding: 100px; */
+    margin: 200px 700px auto 700px ;
+    /* padding: 0px 700px; */
+
+}
+
+.rotate{
+    display: block;
+    position: fixed;
+    height: 150px;
+    animation: rotateAnimation 5s linear infinite;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    /* 100% {
+        transform: rotate(360deg);
+    } */
+}
