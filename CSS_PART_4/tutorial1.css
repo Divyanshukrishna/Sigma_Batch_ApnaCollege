@@ -7,14 +7,12 @@
 .container{
     width: 100px;
     height: 100px;
-    margin: 0 auto;
-    background-color: green;
-    margin-top: 10px;
-    transition: margin-top 2s ease-in 0.2s;
+    background-color: red;
+    margin: 0px auto;
+    transition: margin-top 4s ease-in 0.5s;
+
 }
 
 .container:hover{
-    margin-top: 400px;
-    background-color: pink;
-
+    margin-top: 500px;
 }
