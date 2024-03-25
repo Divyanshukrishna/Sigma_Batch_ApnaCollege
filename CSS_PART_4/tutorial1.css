@@ -15,4 +15,8 @@
 
 .container:hover{
     margin-top: 500px;
+    background-color: blue;
+    border-radius: 50%;
+    scale: 0.90;
+    transition: 7s ease-in 0.8s;
 }
