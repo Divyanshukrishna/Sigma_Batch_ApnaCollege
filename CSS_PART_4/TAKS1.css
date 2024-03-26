@@ -19,15 +19,6 @@ body{
     font-weight: 400;
 }
 
-.outer:hover{
-    /* scale: 2; */
-    /* margin:0px auto; */
-    /* transition: margin 1s ease-in 0.2s; */
-    /* transition: margin 6s ease-in 3s; */
-    box-shadow: 12px 12px 18px #888888;
-    transform: scale(0.9);
-    transition: 1s;
-}
 
 .outer img{
     height: 120px;
@@ -39,12 +30,21 @@ body{
     margin-top: 10px;
     margin-left: 10px;
 }
- 
+
 .outer p{
     margin-top: 10px;
     margin-left: 10px;
 }
 
+.outer:hover{
+    /* scale: 2; */
+    /* margin:0px auto; */
+    /* transition: margin 1s ease-in 0.2s; */
+    /* transition: margin 6s ease-in 3s; */
+    box-shadow: 12px 12px 18px yellow;
+    transform: scale(0.9);
+    transition: 1s;
+}
 
 
 /* by apna college  */
@@ -74,7 +74,7 @@ body{
 }
 
 .card:hover{
-    box-shadow: 12px 12px 12px #888888;
+    box-shadow: 12px 12px 12px green;
     transform:scale(0.9);
     transition: 1s;
 }
