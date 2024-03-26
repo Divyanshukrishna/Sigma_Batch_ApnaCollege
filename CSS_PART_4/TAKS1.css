@@ -5,6 +5,8 @@
 }
 body{
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin-left: 10px;
 }
 
 .outer{
@@ -15,6 +17,14 @@ body{
     border-radius: 10px 10px 0px 0px;
     box-shadow: 10px 5px 10px #888888;
     font-weight: 400;
+}
+
+.outer:hover{
+    /* scale: 2; */
+    /* margin:0px auto; */
+    /* transition: margin 1s ease-in 0.2s; */
+    /* transition: margin 6s ease-in 3s; */
+    box-shadow: 12px 12px 18px #888888;
 }
 
 .outer img{
@@ -31,4 +41,32 @@ body{
 .outer p{
     margin-top: 10px;
     margin-left: 10px;
+}
+
+
+
+/* by apna college  */
+
+.card{
+    width: 220px;
+    height: 200px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px 10px 0px 0px;
+    /* display: flex; */
+    box-shadow: 10px 10px 10px #888888;
+}
+
+.card img{
+    width: 219px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card .desc{
+    padding: 10px;
+
+}
+.card .desc p{
+    line-height: 20px;
+    white-space: nowrap;
 }
