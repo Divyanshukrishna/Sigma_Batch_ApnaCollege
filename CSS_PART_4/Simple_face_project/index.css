@@ -13,12 +13,14 @@ body{
     height: 100%;
     border-radius: 50%;
     /* background-color: black; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* background-image: url("simle_face.webp"); */
 }
 
 img:hover{
     /* transform: scale(0.7); */
     scale: 0.8;
+    border-radius: 50%;
+    border: 2px solid red;
     transition: 1s ease-in;
 }
