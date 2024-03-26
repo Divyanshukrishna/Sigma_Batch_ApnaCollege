@@ -8,8 +8,9 @@
     width: 100px;
     height: 100px;
     background-color: red;
-    margin: 0px auto;
+    margin: 10px auto;
     transition: margin-top 4s ease-in 0.5s;
+    transform: skew(5deg);
 
 }
 
@@ -19,4 +20,29 @@
     border-radius: 50%;
     scale: 0.90;
     transition: 7s ease-in 0.8s;
+}
+
+img{
+    text-align:center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    transform: skew(50deg);
+    transform: rotate(360deg); /* rotate_property  */
+    transition: 5s ease-in 0.8s;
+    transform: scale(2);  /*  scale_property */
+}
+
+#f{
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    margin: 150px auto;
+}
+
+#f:hover{
+    scale: 2    ;
+    transition: 4s ease-in 0.5s;
+    transform: rotate(30deg);
+    transform: translateX(30px);
 }
