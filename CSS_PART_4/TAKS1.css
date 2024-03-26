@@ -70,3 +70,7 @@ body{
     line-height: 20px;
     white-space: nowrap;
 }
+
+.card:hover{
+    box-shadow: 12px 12px 12px #888888;
+}
