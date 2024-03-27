@@ -18,12 +18,23 @@
     background-color: brown;
     border-radius: 0px 0px 50px 50px;
     position: absolute;
-    top: 250px;
+    top: 260px;
     left: 120px;
 }
 
-.left-eye .right-eye{
-    width: 100px;
-    height: 100px;
-    
+.right-eye , .left-eye{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black; 
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
 }
+
+.right-eye{
+    left: 250px;
+}
+
