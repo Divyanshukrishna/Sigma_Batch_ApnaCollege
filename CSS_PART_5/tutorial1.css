@@ -5,11 +5,13 @@
 }
 
 #container{
-    height: 800px;
+    height: 500px;
     width: 80%;
+    background-color: azure;
     border: 2px solid black;
     margin: 40px auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -17,5 +19,14 @@ h1{
     text-align: center;
     margin: 20px auto;
     font-size: 40px;
+
+}
+
+#container div{
+    height: 100px;
+    color: white;
+    width: 300px;
+    text-align: center;
+    font-size: 1.5rem;
 
 }

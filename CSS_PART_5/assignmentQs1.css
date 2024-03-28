@@ -59,7 +59,12 @@
 }
 
 .box:hover{
-    transform: scale(0.5);
+    transform: scale(0.8);
     transition: 2s ease-in;
     cursor: pointer;
+}
+
+.box p:hover{
+    scale: 2;
+    transition: 2s ease-in-out;
 }
